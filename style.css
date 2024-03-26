@@ -1,12 +1,71 @@
-h1{
-    color: rgb(87, 87, 87);
-}
-
+@charset "UTF-8";
 body{
-    display: flex;
+    display: flexbox;
+    margin: 70px;
+    font-family: 'Arial';
 }
 
-#nav{
-    min-width: 200px;
-    background-color: bisque;
+h1, h2, h3, p, article, main, section{
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 30%;
+    width: 70%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    width: 20%;
+    position: fixed;
+    overflow: auto;
+    padding-left: 0px;
+}
+
+li{
+    display: grid;
+    font-size: 25px;
+}
+
+a{
+    padding: 15px;
+    border: 10px solid white;
+    border-left: 0px;
+    color: black;
+    text-align: centre;
+    background-color: rgb(148, 147, 147);
+    text-decoration: none;
+}
+
+table{
+    margin-left: 30%;
+    width: 60%;
+    display: inline-flex;
+}
+
+table, th, td{
+    padding: 8px;
+}
+
+th, td, tr{
+    border: 1px solid black;
+}
+
+#good{
+    background-color: rgb(104, 205, 104);
+}
+
+#okay{
+    background-color: rgb(235, 235, 73);
+}
+
+#bad{
+    background-color: rgb(255, 0, 0);
 }
